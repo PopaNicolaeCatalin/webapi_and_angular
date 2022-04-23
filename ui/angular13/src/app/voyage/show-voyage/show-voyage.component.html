@@ -1,0 +1,26 @@
+
+
+
+
+<table class="table table-stripped">
+  <thead>
+    <tr>
+      <th>Ship ID</th>
+      <th>Voyage departure port</th>
+      <th>Voyage Start</th>
+      <th>Voyage arrival port</th>
+      <th>Voyage end</th>
+      <th>Options</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor='let dataItem of VoyageList'>
+      <td>{{dataItem.voyage_ship_id}}</td>
+      <td>{{dataItem.voyage_departure_port}}</td>
+      <td>{{dataItem.voyage_start}}</td>
+      <td>{{dataItem.voyage_arrival_port}}</td>
+      <td>{{dataItem.voyage_end}}</td>
+      <td>No Options</td>
+    </tr>
+  </tbody>
+</table>

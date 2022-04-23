@@ -1,0 +1,21 @@
+
+
+
+
+
+<table class="table table-stripped">
+  <thead>
+    <tr>
+      <th>Country Name</th>
+      <th>Number of ports</th>
+      <th>Options</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor='let dataItem of Point5List'>
+      <td>{{dataItem.country_name}}</td>
+      <td>{{dataItem.no_ports}}</td>
+      <td>No Options</td>
+    </tr>
+  </tbody>
+</table>

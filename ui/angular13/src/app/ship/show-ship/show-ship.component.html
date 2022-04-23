@@ -1,0 +1,22 @@
+
+
+
+
+<table class="table table-stripped">
+  <thead>
+    <tr>
+      <th>Ship ID</th>
+      <th>Ship Name</th>
+      <th>Max Speed</th>
+      <th>Options</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor='let dataItem of ShipList'>
+      <td>{{dataItem.ship_id}}</td>
+      <td>{{dataItem.ship_name}}</td>
+      <td>{{dataItem.ship_speed_max}}</td>
+      <td>No Options</td>
+    </tr>
+  </tbody>
+</table>
